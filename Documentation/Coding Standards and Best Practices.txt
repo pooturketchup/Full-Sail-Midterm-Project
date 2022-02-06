@@ -1,0 +1,110 @@
+Coding Standards and Best Practices
+
+Agreeing Members:
+
+Nolan Mortenson 
+Mitchell Burkhardt
+Ariana Askey
+
+
+Purpose
+
+To develop reliable and maintainable applications, you must follow coding standards and best practices.
+The naming conventions, coding standards and best practices described in this document are compiled from our own experience. 
+All team members are always expected to follow the coding standards and best practices.
+
+
+** Folder Heiarchy **
+
+
+** Commenting standards **
+
+	File header expectation
+		Example:
+		// Name of file, Purpose of file, date modified, last person who modified
+
+	Method heading expectation
+		Example:
+		// SaveHarambe
+
+	Code block expectation
+		Example:
+		What the function does
+
+
+** Naming convention **
+
+	Meaningful, descriptive words to name variables.
+	Good:
+		string CharacterName;
+		int Row, Column;
+		GameObject SpawnedItem;
+	Not Good:
+		string nam;
+		int i,j;
+		GameObject temp;
+
+	Capitalization expectation
+		Example:
+		camelCasing
+		
+	Standard Prefixing 
+		Example:
+			Parameter: _name
+			Datamember: mName
+			Variables: camelCasing
+		
+	Abbreviation use 
+		Example:
+		Camera Velocity = camVel
+		
+** Layout Conventions **	
+
+	Indenting standard
+		Example:
+		if ()
+		{
+			dshajkfhdasjfh
+		}
+		
+	Curly braces ( {} ) format
+		Example:
+		if ()
+		{
+			
+		}
+		
+	Blank line expectation
+		Example:
+		just blank i guess
+		
+	Spacing around operators
+		Example:
+		if (int i = 0; i < 10; i++)
+
+	Maximum characters per line
+		i guess what fits on the screen		
+
+	Maximum nested conditions 
+		as many as you need
+		
+	Maximum lines per method
+		consolidate pls
+		
+	Maximum lines per file
+		have at it
+
+	#region usage
+		Example:
+		who uses this
+		
+** Programming Practices **
+
+	Static values (hardcoded numbers. Const variables, and #defines)
+		make static if need be
+
+	Commenting out code
+		test new code before deleteing commented
+
+	DRY practices (“Don’t Repeat Yourself")
+		dont
